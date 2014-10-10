@@ -1,0 +1,6 @@
+﻿        [System.ServiceModel.OperationContractAttribute(Action="${Action}")]
+        [System.ServiceModel.XmlSerializerFormatAttribute()]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Response))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(Request))]
+        ${Output} ${Name}(${Input} request);
+
